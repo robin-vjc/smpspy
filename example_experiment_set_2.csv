@@ -1,0 +1,3 @@
+subtype,method_name,selected_parameter
+sslp,SG 1/k,0.01
+sslp,SG const,0.1

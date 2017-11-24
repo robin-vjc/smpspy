@@ -1,0 +1,5 @@
+TIME          XXX
+PERIODS       LP
+    XP1T15    PP1                      PER01
+    YT15D44   WHT15                    PER02
+ENDATA

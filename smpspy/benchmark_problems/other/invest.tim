@@ -1,0 +1,7 @@
+TIME          Invest
+PERIODS
+    STOCK1    BUDGET                   YEAR_1
+    STOCK2    BAL1                     YEAR_6
+    STOCK3    BAL2                     YEAR_11
+    SHORT     BAL3                     YEAR_15
+ENDATA

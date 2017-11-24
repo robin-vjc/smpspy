@@ -1,0 +1,1297 @@
+NAME          XXX
+ROWS
+ N  OBJ
+ L  PP1
+ L  PP0
+ L  PP9
+ L  PP8
+ L  PP7
+ L  PP6
+ L  PP5
+ L  PP4
+ L  PP3
+ L  PP2
+ L  WHT15
+ L  WHT14
+ L  WHT13
+ L  WHT12
+ L  WHT11
+ L  WHT10
+ L  WHT9
+ L  WHT8
+ L  WHT7
+ L  WHT6
+ L  WHT20
+ L  WHT5
+ L  WHT4
+ L  WHT3
+ L  WHT2
+ L  WHT1
+ L  WHT19
+ L  WHT18
+ L  WHT17
+ L  WHT16
+ L  RTD9
+ L  RTD29
+ L  RTD8
+ L  RTD28
+ L  RTD7
+ L  RTD27
+ L  RTD6
+ L  RTD26
+ L  RTD25
+ L  RTD5
+ L  RTD24
+ L  RTD4
+ L  RTD23
+ L  RTD3
+ L  RTD22
+ L  RTD2
+ L  RTD21
+ L  RTD1
+ L  RTD20
+ L  RTD50
+ L  RTD19
+ L  RTD18
+ L  RTD49
+ L  RTD17
+ L  RTD48
+ L  RTD16
+ L  RTD47
+ L  RTD15
+ L  RTD46
+ L  RTD14
+ L  RTD45
+ L  RTD13
+ L  RTD44
+ L  RTD12
+ L  RTD43
+ L  RTD11
+ L  RTD42
+ L  RTD10
+ L  RTD41
+ L  RTD40
+ L  RTD39
+ L  RTD38
+ L  RTD37
+ L  RTD36
+ L  RTD35
+ L  RTD34
+ L  RTD33
+ L  RTD32
+ L  RTD31
+ L  RTD30
+ L  TDD9F0
+ L  TDD9F1
+ L  TDD9F2
+ L  TDD29F0
+ L  TDD29F1
+ L  TDD29F2
+ L  TDD8F0
+ L  TDD8F1
+ L  TDD8F2
+ L  TDD28F0
+ L  TDD28F1
+ L  TDD28F2
+ L  TDD7F0
+ L  TDD7F1
+ L  TDD7F2
+ L  TDD27F0
+ L  TDD27F1
+ L  TDD27F2
+ L  TDD6F0
+ L  TDD6F1
+ L  TDD6F2
+ L  TDD26F0
+ L  TDD26F1
+ L  TDD26F2
+ L  TDD25F0
+ L  TDD25F1
+ L  TDD25F2
+ L  TDD5F0
+ L  TDD5F1
+ L  TDD5F2
+ L  TDD24F0
+ L  TDD24F1
+ L  TDD24F2
+ L  TDD4F0
+ L  TDD4F1
+ L  TDD4F2
+ L  TDD23F0
+ L  TDD23F1
+ L  TDD23F2
+ L  TDD3F0
+ L  TDD3F1
+ L  TDD3F2
+ L  TDD22F0
+ L  TDD22F1
+ L  TDD22F2
+ L  TDD2F0
+ L  TDD2F1
+ L  TDD2F2
+ L  TDD21F0
+ L  TDD21F1
+ L  TDD21F2
+ L  TDD1F0
+ L  TDD1F1
+ L  TDD1F2
+ L  TDD20F0
+ L  TDD20F1
+ L  TDD20F2
+ L  TDD50F0
+ L  TDD50F1
+ L  TDD50F2
+ L  TDD19F0
+ L  TDD19F1
+ L  TDD19F2
+ L  TDD18F0
+ L  TDD18F1
+ L  TDD18F2
+ L  TDD49F0
+ L  TDD49F1
+ L  TDD49F2
+ L  TDD17F0
+ L  TDD17F1
+ L  TDD17F2
+ L  TDD48F0
+ L  TDD48F1
+ L  TDD48F2
+ L  TDD16F0
+ L  TDD16F1
+ L  TDD16F2
+ L  TDD47F0
+ L  TDD47F1
+ L  TDD47F2
+ L  TDD15F0
+ L  TDD15F1
+ L  TDD15F2
+ L  TDD46F0
+ L  TDD46F1
+ L  TDD46F2
+ L  TDD14F0
+ L  TDD14F1
+ L  TDD14F2
+ L  TDD45F0
+ L  TDD45F1
+ L  TDD45F2
+ L  TDD13F0
+ L  TDD13F1
+ L  TDD13F2
+ L  TDD44F0
+ L  TDD44F1
+ L  TDD44F2
+ L  TDD12F0
+ L  TDD12F1
+ L  TDD12F2
+ L  TDD43F0
+ L  TDD43F1
+ L  TDD43F2
+ L  TDD11F0
+ L  TDD11F1
+ L  TDD11F2
+ L  TDD42F0
+ L  TDD42F1
+ L  TDD42F2
+ L  TDD10F0
+ L  TDD10F1
+ L  TDD10F2
+ L  TDD41F0
+ L  TDD41F1
+ L  TDD41F2
+ L  TDD40F0
+ L  TDD40F1
+ L  TDD40F2
+ L  TDD39F0
+ L  TDD39F1
+ L  TDD39F2
+ L  TDD38F0
+ L  TDD38F1
+ L  TDD38F2
+ L  TDD37F0
+ L  TDD37F1
+ L  TDD37F2
+ L  TDD36F0
+ L  TDD36F1
+ L  TDD36F2
+ L  TDD35F0
+ L  TDD35F1
+ L  TDD35F2
+ L  TDD34F0
+ L  TDD34F1
+ L  TDD34F2
+ L  TDD33F0
+ L  TDD33F1
+ L  TDD33F2
+ L  TDD32F0
+ L  TDD32F1
+ L  TDD32F2
+ L  TDD31F0
+ L  TDD31F1
+ L  TDD31F2
+ L  TDD30F0
+ L  TDD30F1
+ L  TDD30F2
+COLUMNS
+    XP1T15    OBJ       59.169
+    XP1T15    PP1       1
+    XP1T15    WHT15     -1
+    XP1T14    OBJ       39.459
+    XP1T14    PP1       1
+    XP1T14    WHT14     -1
+    XP1T1     OBJ       15
+    XP1T1     PP1       1
+    XP1T1     WHT1      -1
+    XP1T20    OBJ       42.953
+    XP1T20    PP1       1
+    XP1T20    WHT20     -1
+    XP1T4     OBJ       39
+    XP1T4     PP1       1
+    XP1T4     WHT4      -1
+    XP0T7     OBJ       66.068
+    XP0T7     PP0       1
+    XP0T7     WHT7      -1
+    XP0T16    OBJ       40.361
+    XP0T16    PP0       1
+    XP0T16    WHT16     -1
+    XP0T13    OBJ       78
+    XP0T13    PP0       1
+    XP0T13    WHT13     -1
+    XP0T2     OBJ       16.155
+    XP0T2     PP0       1
+    XP0T2     WHT2      -1
+    XP0T11    OBJ       48.836
+    XP0T11    PP0       1
+    XP0T11    WHT11     -1
+    XP9T18    OBJ       63.071
+    XP9T18    PP9       1
+    XP9T18    WHT18     -1
+    XP9T9     OBJ       84
+    XP9T9     PP9       1
+    XP9T9     WHT9      -1
+    XP9T19    OBJ       68.411
+    XP9T19    PP9       1
+    XP9T19    WHT19     -1
+    XP9T12    OBJ       45.695
+    XP9T12    PP9       1
+    XP9T12    WHT12     -1
+    XP9T11    OBJ       93.193
+    XP9T11    PP9       1
+    XP9T11    WHT11     -1
+    XP8T15    OBJ       51.088
+    XP8T15    PP8       1
+    XP8T15    WHT15     -1
+    XP8T14    OBJ       77.421
+    XP8T14    PP8       1
+    XP8T14    WHT14     -1
+    XP8T5     OBJ       58.941
+    XP8T5     PP8       1
+    XP8T5     WHT5      -1
+    XP8T6     OBJ       118.377
+    XP8T6     PP8       1
+    XP8T6     WHT6      -1
+    XP8T4     OBJ       76.485
+    XP8T4     PP8       1
+    XP8T4     WHT4      -1
+    XP7T15    OBJ       123.329
+    XP7T15    PP7       1
+    XP7T15    WHT15     -1
+    XP7T16    OBJ       81.884
+    XP7T16    PP7       1
+    XP7T16    WHT16     -1
+    XP7T2     OBJ       117.154
+    XP7T2     PP7       1
+    XP7T2     WHT2      -1
+    XP7T5     OBJ       28.46
+    XP7T5     PP7       1
+    XP7T5     WHT5      -1
+    XP7T4     OBJ       125.355
+    XP7T4     PP7       1
+    XP7T4     WHT4      -1
+    XP6T9     OBJ       59.093
+    XP6T9     PP6       1
+    XP6T9     WHT9      -1
+    XP6T2     OBJ       58.249
+    XP6T2     PP6       1
+    XP6T2     WHT2      -1
+    XP6T13    OBJ       71.12
+    XP6T13    PP6       1
+    XP6T13    WHT13     -1
+    XP6T12    OBJ       43.681
+    XP6T12    PP6       1
+    XP6T12    WHT12     -1
+    XP6T11    OBJ       25.632
+    XP6T11    PP6       1
+    XP6T11    WHT11     -1
+    XP5T18    OBJ       69
+    XP5T18    PP5       1
+    XP5T18    WHT18     -1
+    XP5T17    OBJ       97.673
+    XP5T17    PP5       1
+    XP5T17    WHT17     -1
+    XP5T10    OBJ       33.941
+    XP5T10    PP5       1
+    XP5T10    WHT10     -1
+    XP5T19    OBJ       60.671
+    XP5T19    PP5       1
+    XP5T19    WHT19     -1
+    XP5T8     OBJ       64.133
+    XP5T8     PP5       1
+    XP5T8     WHT8      -1
+    XP4T15    OBJ       113.842
+    XP4T15    PP4       1
+    XP4T15    WHT15     -1
+    XP4T14    OBJ       140.456
+    XP4T14    PP4       1
+    XP4T14    WHT14     -1
+    XP4T16    OBJ       108.042
+    XP4T16    PP4       1
+    XP4T16    WHT16     -1
+    XP4T5     OBJ       21.633
+    XP4T5     PP4       1
+    XP4T5     WHT5      -1
+    XP4T4     OBJ       124.852
+    XP4T4     PP4       1
+    XP4T4     WHT4      -1
+    XP3T17    OBJ       75
+    XP3T17    PP3       1
+    XP3T17    WHT17     -1
+    XP3T8     OBJ       84.959
+    XP3T8     PP3       1
+    XP3T8     WHT8      -1
+    XP3T10    OBJ       31.89
+    XP3T10    PP3       1
+    XP3T10    WHT10     -1
+    XP3T19    OBJ       17.493
+    XP3T19    PP3       1
+    XP3T19    WHT19     -1
+    XP3T18    OBJ       24
+    XP3T18    PP3       1
+    XP3T18    WHT18     -1
+    XP2T15    OBJ       87.464
+    XP2T15    PP2       1
+    XP2T15    WHT15     -1
+    XP2T14    OBJ       89.499
+    XP2T14    PP2       1
+    XP2T14    WHT14     -1
+    XP2T4     OBJ       122.156
+    XP2T4     PP2       1
+    XP2T4     WHT4      -1
+    XP2T1     OBJ       126
+    XP2T1     PP2       1
+    XP2T1     WHT1      -1
+    XP2T6     OBJ       68.476
+    XP2T6     PP2       1
+    XP2T6     WHT6      -1
+    YT15D44   OBJ       276.576
+    YT15D44   WHT15     1
+    YT15D44   RTD44     -1
+    YT15D45   OBJ       115.877
+    YT15D45   WHT15     1
+    YT15D45   RTD45     -1
+    YT15D15   OBJ       297.931
+    YT15D15   WHT15     1
+    YT15D15   RTD15     -1
+    YT15D42   OBJ       296.152
+    YT15D42   WHT15     1
+    YT15D42   RTD42     -1
+    YT15D48   OBJ       257.366
+    YT15D48   WHT15     1
+    YT15D48   RTD48     -1
+    YT14D45   OBJ       74.347
+    YT14D45   WHT14     1
+    YT14D45   RTD45     -1
+    YT14D15   OBJ       270.676
+    YT14D15   WHT14     1
+    YT14D15   RTD15     -1
+    YT14D11   OBJ       351.707
+    YT14D11   WHT14     1
+    YT14D11   RTD11     -1
+    YT14D42   OBJ       262.233
+    YT14D42   WHT14     1
+    YT14D42   RTD42     -1
+    YT14D48   OBJ       339.158
+    YT14D48   WHT14     1
+    YT14D48   RTD48     -1
+    YT13D36   OBJ       243.529
+    YT13D36   WHT13     1
+    YT13D36   RTD36     -1
+    YT13D13   OBJ       235.531
+    YT13D13   WHT13     1
+    YT13D13   RTD13     -1
+    YT13D4    OBJ       163.524
+    YT13D4    WHT13     1
+    YT13D4    RTD4      -1
+    YT13D14   OBJ       104.563
+    YT13D14   WHT13     1
+    YT13D14   RTD14     -1
+    YT13D20   OBJ       134.358
+    YT13D20   WHT13     1
+    YT13D20   RTD20     -1
+    YT12D36   OBJ       208.143
+    YT12D36   WHT12     1
+    YT12D36   RTD36     -1
+    YT12D13   OBJ       227.631
+    YT12D13   WHT12     1
+    YT12D13   RTD13     -1
+    YT12D10   OBJ       282.249
+    YT12D10   WHT12     1
+    YT12D10   RTD10     -1
+    YT12D38   OBJ       307.563
+    YT12D38   WHT12     1
+    YT12D38   RTD38     -1
+    YT12D1    OBJ       199.027
+    YT12D1    WHT12     1
+    YT12D1    RTD1      -1
+    YT11D3    OBJ       235.96
+    YT11D3    WHT11     1
+    YT11D3    RTD3      -1
+    YT11D1    OBJ       301.561
+    YT11D1    WHT11     1
+    YT11D1    RTD1      -1
+    YT11D36   OBJ       67.13
+    YT11D36   WHT11     1
+    YT11D36   RTD36     -1
+    YT11D13   OBJ       302.721
+    YT11D13   WHT11     1
+    YT11D13   RTD13     -1
+    YT11D4    OBJ       171.068
+    YT11D4    WHT11     1
+    YT11D4    RTD4      -1
+    YT10D12   OBJ       338.531
+    YT10D12   WHT10     1
+    YT10D12   RTD12     -1
+    YT10D47   OBJ       234.631
+    YT10D47   WHT10     1
+    YT10D47   RTD47     -1
+    YT10D8    OBJ       318.628
+    YT10D8    WHT10     1
+    YT10D8    RTD8      -1
+    YT10D18   OBJ       166.912
+    YT10D18   WHT10     1
+    YT10D18   RTD18     -1
+    YT10D25   OBJ       73.308
+    YT10D25   WHT10     1
+    YT10D25   RTD25     -1
+    YT9D23    OBJ       193.61
+    YT9D23    WHT9      1
+    YT9D23    RTD23     -1
+    YT9D21    OBJ       173.209
+    YT9D21    WHT9      1
+    YT9D21    RTD21     -1
+    YT9D10    OBJ       235.098
+    YT9D10    WHT9      1
+    YT9D10    RTD10     -1
+    YT9D38    OBJ       154.088
+    YT9D38    WHT9      1
+    YT9D38    RTD38     -1
+    YT9D24    OBJ       82.923
+    YT9D24    WHT9      1
+    YT9D24    RTD24     -1
+    YT8D32    OBJ       244.884
+    YT8D32    WHT8      1
+    YT8D32    RTD32     -1
+    YT8D5     OBJ       213.725
+    YT8D5     WHT8      1
+    YT8D5     RTD5      -1
+    YT8D46    OBJ       86.619
+    YT8D46    WHT8      1
+    YT8D46    RTD46     -1
+    YT8D19    OBJ       356.01
+    YT8D19    WHT8      1
+    YT8D19    RTD19     -1
+    YT8D26    OBJ       332.504
+    YT8D26    WHT8      1
+    YT8D26    RTD26     -1
+    YT7D14    OBJ       196.066
+    YT7D14    WHT7      1
+    YT7D14    RTD14     -1
+    YT7D20    OBJ       287.012
+    YT7D20    WHT7      1
+    YT7D20    RTD20     -1
+    YT7D3     OBJ       220.31
+    YT7D3     WHT7      1
+    YT7D3     RTD3      -1
+    YT7D36    OBJ       411.864
+    YT7D36    WHT7      1
+    YT7D36    RTD36     -1
+    YT7D4     OBJ       234.978
+    YT7D4     WHT7      1
+    YT7D4     RTD4      -1
+    YT6D49    OBJ       217.712
+    YT6D49    WHT6      1
+    YT6D49    RTD49     -1
+    YT6D42    OBJ       406.874
+    YT6D42    WHT6      1
+    YT6D42    RTD42     -1
+    YT6D22    OBJ       294.382
+    YT6D22    WHT6      1
+    YT6D22    RTD22     -1
+    YT6D43    OBJ       302.253
+    YT6D43    WHT6      1
+    YT6D43    RTD43     -1
+    YT6D11    OBJ       70.706
+    YT6D11    WHT6      1
+    YT6D11    RTD11     -1
+    YT20D42   OBJ       181.083
+    YT20D42   WHT20     1
+    YT20D42   RTD42     -1
+    YT20D43   OBJ       212.456
+    YT20D43   WHT20     1
+    YT20D43   RTD43     -1
+    YT20D15   OBJ       148.443
+    YT20D15   WHT20     1
+    YT20D15   RTD15     -1
+    YT20D19   OBJ       165.051
+    YT20D19   WHT20     1
+    YT20D19   RTD19     -1
+    YT20D32   OBJ       184.051
+    YT20D32   WHT20     1
+    YT20D32   RTD32     -1
+    YT5D16    OBJ       258.586
+    YT5D16    WHT5      1
+    YT5D16    RTD16     -1
+    YT5D37    OBJ       183.67
+    YT5D37    WHT5      1
+    YT5D37    RTD37     -1
+    YT5D50    OBJ       174.776
+    YT5D50    WHT5      1
+    YT5D50    RTD50     -1
+    YT5D35    OBJ       145.217
+    YT5D35    WHT5      1
+    YT5D35    RTD35     -1
+    YT5D7     OBJ       70.586
+    YT5D7     WHT5      1
+    YT5D7     RTD7      -1
+    YT4D23    OBJ       375
+    YT4D23    WHT4      1
+    YT4D23    RTD23     -1
+    YT4D15    OBJ       372.217
+    YT4D15    WHT4      1
+    YT4D15    RTD15     -1
+    YT4D48    OBJ       128.785
+    YT4D48    WHT4      1
+    YT4D48    RTD48     -1
+    YT4D45    OBJ       275.463
+    YT4D45    WHT4      1
+    YT4D45    RTD45     -1
+    YT4D21    OBJ       381.774
+    YT4D21    WHT4      1
+    YT4D21    RTD21     -1
+    YT3D30    OBJ       136.107
+    YT3D30    WHT3      1
+    YT3D30    RTD30     -1
+    YT3D34    OBJ       82.512
+    YT3D34    WHT3      1
+    YT3D34    RTD34     -1
+    YT3D43    OBJ       303.215
+    YT3D43    WHT3      1
+    YT3D43    RTD43     -1
+    YT3D40    OBJ       111.265
+    YT3D40    WHT3      1
+    YT3D40    RTD40     -1
+    YT3D49    OBJ       257.102
+    YT3D49    WHT3      1
+    YT3D49    RTD49     -1
+    YT2D9     OBJ       394.534
+    YT2D9     WHT2      1
+    YT2D9     RTD9      -1
+    YT2D36    OBJ       413.666
+    YT2D36    WHT2      1
+    YT2D36    RTD36     -1
+    YT2D3     OBJ       177.316
+    YT2D3     WHT2      1
+    YT2D3     RTD3      -1
+    YT2D28    OBJ       325.223
+    YT2D28    WHT2      1
+    YT2D28    RTD28     -1
+    YT2D4     OBJ       313.119
+    YT2D4     WHT2      1
+    YT2D4     RTD4      -1
+    YT1D15    OBJ       95.675
+    YT1D15    WHT1      1
+    YT1D15    RTD15     -1
+    YT1D42    OBJ       141.987
+    YT1D42    WHT1      1
+    YT1D42    RTD42     -1
+    YT1D43    OBJ       209.762
+    YT1D43    WHT1      1
+    YT1D43    RTD43     -1
+    YT1D48    OBJ       216.778
+    YT1D48    WHT1      1
+    YT1D48    RTD48     -1
+    YT1D45    OBJ       232.697
+    YT1D45    WHT1      1
+    YT1D45    RTD45     -1
+    YT19D47   OBJ       151.16
+    YT19D47   WHT19     1
+    YT19D47   RTD47     -1
+    YT19D12   OBJ       225.514
+    YT19D12   WHT19     1
+    YT19D12   RTD12     -1
+    YT19D8    OBJ       160.353
+    YT19D8    WHT19     1
+    YT19D8    RTD8      -1
+    YT19D18   OBJ       82.22
+    YT19D18   WHT19     1
+    YT19D18   RTD18     -1
+    YT19D10   OBJ       251.035
+    YT19D10   WHT19     1
+    YT19D10   RTD10     -1
+    YT18D47   OBJ       211.62
+    YT18D47   WHT18     1
+    YT18D47   RTD47     -1
+    YT18D10   OBJ       286.603
+    YT18D10   WHT18     1
+    YT18D10   RTD10     -1
+    YT18D8    OBJ       141.03
+    YT18D8    WHT18     1
+    YT18D8    RTD8      -1
+    YT18D18   OBJ       190.005
+    YT18D18   WHT18     1
+    YT18D18   RTD18     -1
+    YT18D12   OBJ       323.96
+    YT18D12   WHT18     1
+    YT18D12   RTD12     -1
+    YT17D19   OBJ       148.899
+    YT17D19   WHT17     1
+    YT17D19   RTD19     -1
+    YT17D32   OBJ       334.365
+    YT17D32   WHT17     1
+    YT17D32   RTD32     -1
+    YT17D8    OBJ       485.988
+    YT17D8    WHT17     1
+    YT17D8    RTD8      -1
+    YT17D24   OBJ       409.16
+    YT17D24   WHT17     1
+    YT17D24   RTD24     -1
+    YT17D26   OBJ       272.587
+    YT17D26   WHT17     1
+    YT17D26   RTD26     -1
+    YT16D9    OBJ       99.759
+    YT16D9    WHT16     1
+    YT16D9    RTD9      -1
+    YT16D6    OBJ       132.562
+    YT16D6    WHT16     1
+    YT16D6    RTD6      -1
+    YT16D27   OBJ       126.009
+    YT16D27   WHT16     1
+    YT16D27   RTD27     -1
+    YT16D28   OBJ       207.021
+    YT16D28   WHT16     1
+    YT16D28   RTD28     -1
+    YT16D16   OBJ       174.017
+    YT16D16   WHT16     1
+    YT16D16   RTD16     -1
+    DAD9F0    OBJ       -195.271
+    DAD9F0    RTD9      1
+    DAD9F0    TDD9F0    1
+    DAD9F1    OBJ       -162.726
+    DAD9F1    RTD9      1
+    DAD9F1    TDD9F1    1
+    DAD9F2    OBJ       -113.908
+    DAD9F2    RTD9      1
+    DAD9F2    TDD9F2    1
+    DAD29F0   OBJ       -194.366
+    DAD29F0   RTD29     1
+    DAD29F0   TDD29F0   1
+    DAD29F1   OBJ       -161.971
+    DAD29F1   RTD29     1
+    DAD29F1   TDD29F1   1
+    DAD29F2   OBJ       -113.38
+    DAD29F2   RTD29     1
+    DAD29F2   TDD29F2   1
+    DAD8F0    OBJ       -411.346
+    DAD8F0    RTD8      1
+    DAD8F0    TDD8F0    1
+    DAD8F1    OBJ       -342.788
+    DAD8F1    RTD8      1
+    DAD8F1    TDD8F1    1
+    DAD8F2    OBJ       -239.952
+    DAD8F2    RTD8      1
+    DAD8F2    TDD8F2    1
+    DAD28F0   OBJ       -466.156
+    DAD28F0   RTD28     1
+    DAD28F0   TDD28F0   1
+    DAD28F1   OBJ       -388.463
+    DAD28F1   RTD28     1
+    DAD28F1   TDD28F1   1
+    DAD28F2   OBJ       -271.924
+    DAD28F2   RTD28     1
+    DAD28F2   TDD28F2   1
+    DAD7F0    OBJ       -236.926
+    DAD7F0    RTD7      1
+    DAD7F0    TDD7F0    1
+    DAD7F1    OBJ       -197.439
+    DAD7F1    RTD7      1
+    DAD7F1    TDD7F1    1
+    DAD7F2    OBJ       -138.207
+    DAD7F2    RTD7      1
+    DAD7F2    TDD7F2    1
+    DAD27F0   OBJ       -507.794
+    DAD27F0   RTD27     1
+    DAD27F0   TDD27F0   1
+    DAD27F1   OBJ       -423.161
+    DAD27F1   RTD27     1
+    DAD27F1   TDD27F1   1
+    DAD27F2   OBJ       -296.213
+    DAD27F2   RTD27     1
+    DAD27F2   TDD27F2   1
+    DAD6F0    OBJ       -206.949
+    DAD6F0    RTD6      1
+    DAD6F0    TDD6F0    1
+    DAD6F1    OBJ       -172.457
+    DAD6F1    RTD6      1
+    DAD6F1    TDD6F1    1
+    DAD6F2    OBJ       -120.72
+    DAD6F2    RTD6      1
+    DAD6F2    TDD6F2    1
+    DAD26F0   OBJ       -410.48
+    DAD26F0   RTD26     1
+    DAD26F0   TDD26F0   1
+    DAD26F1   OBJ       -342.067
+    DAD26F1   RTD26     1
+    DAD26F1   TDD26F1   1
+    DAD26F2   OBJ       -239.447
+    DAD26F2   RTD26     1
+    DAD26F2   TDD26F2   1
+    DAD25F0   OBJ       -543.361
+    DAD25F0   RTD25     1
+    DAD25F0   TDD25F0   1
+    DAD25F1   OBJ       -452.801
+    DAD25F1   RTD25     1
+    DAD25F1   TDD25F1   1
+    DAD25F2   OBJ       -316.961
+    DAD25F2   RTD25     1
+    DAD25F2   TDD25F2   1
+    DAD5F0    OBJ       -272.875
+    DAD5F0    RTD5      1
+    DAD5F0    TDD5F0    1
+    DAD5F1    OBJ       -227.396
+    DAD5F1    RTD5      1
+    DAD5F1    TDD5F1    1
+    DAD5F2    OBJ       -159.177
+    DAD5F2    RTD5      1
+    DAD5F2    TDD5F2    1
+    DAD24F0   OBJ       -265.824
+    DAD24F0   RTD24     1
+    DAD24F0   TDD24F0   1
+    DAD24F1   OBJ       -221.52
+    DAD24F1   RTD24     1
+    DAD24F1   TDD24F1   1
+    DAD24F2   OBJ       -155.064
+    DAD24F2   RTD24     1
+    DAD24F2   TDD24F2   1
+    DAD4F0    OBJ       -381.686
+    DAD4F0    RTD4      1
+    DAD4F0    TDD4F0    1
+    DAD4F1    OBJ       -318.072
+    DAD4F1    RTD4      1
+    DAD4F1    TDD4F1    1
+    DAD4F2    OBJ       -222.65
+    DAD4F2    RTD4      1
+    DAD4F2    TDD4F2    1
+    DAD23F0   OBJ       -416.68
+    DAD23F0   RTD23     1
+    DAD23F0   TDD23F0   1
+    DAD23F1   OBJ       -347.234
+    DAD23F1   RTD23     1
+    DAD23F1   TDD23F1   1
+    DAD23F2   OBJ       -243.064
+    DAD23F2   RTD23     1
+    DAD23F2   TDD23F2   1
+    DAD3F0    OBJ       -352.09
+    DAD3F0    RTD3      1
+    DAD3F0    TDD3F0    1
+    DAD3F1    OBJ       -293.409
+    DAD3F1    RTD3      1
+    DAD3F1    TDD3F1    1
+    DAD3F2    OBJ       -205.386
+    DAD3F2    RTD3      1
+    DAD3F2    TDD3F2    1
+    DAD22F0   OBJ       -225.429
+    DAD22F0   RTD22     1
+    DAD22F0   TDD22F0   1
+    DAD22F1   OBJ       -187.857
+    DAD22F1   RTD22     1
+    DAD22F1   TDD22F1   1
+    DAD22F2   OBJ       -131.5
+    DAD22F2   RTD22     1
+    DAD22F2   TDD22F2   1
+    DAD2F0    OBJ       -499.011
+    DAD2F0    RTD2      1
+    DAD2F0    TDD2F0    1
+    DAD2F1    OBJ       -415.843
+    DAD2F1    RTD2      1
+    DAD2F1    TDD2F1    1
+    DAD2F2    OBJ       -291.09
+    DAD2F2    RTD2      1
+    DAD2F2    TDD2F2    1
+    DAD21F0   OBJ       -384.576
+    DAD21F0   RTD21     1
+    DAD21F0   TDD21F0   1
+    DAD21F1   OBJ       -320.48
+    DAD21F1   RTD21     1
+    DAD21F1   TDD21F1   1
+    DAD21F2   OBJ       -224.336
+    DAD21F2   RTD21     1
+    DAD21F2   TDD21F2   1
+    DAD1F0    OBJ       -315.497
+    DAD1F0    RTD1      1
+    DAD1F0    TDD1F0    1
+    DAD1F1    OBJ       -262.914
+    DAD1F1    RTD1      1
+    DAD1F1    TDD1F1    1
+    DAD1F2    OBJ       -184.04
+    DAD1F2    RTD1      1
+    DAD1F2    TDD1F2    1
+    DAD20F0   OBJ       -427.381
+    DAD20F0   RTD20     1
+    DAD20F0   TDD20F0   1
+    DAD20F1   OBJ       -356.151
+    DAD20F1   RTD20     1
+    DAD20F1   TDD20F1   1
+    DAD20F2   OBJ       -249.305
+    DAD20F2   RTD20     1
+    DAD20F2   TDD20F2   1
+    DAD50F0   OBJ       -485.548
+    DAD50F0   RTD50     1
+    DAD50F0   TDD50F0   1
+    DAD50F1   OBJ       -404.623
+    DAD50F1   RTD50     1
+    DAD50F1   TDD50F1   1
+    DAD50F2   OBJ       -283.236
+    DAD50F2   RTD50     1
+    DAD50F2   TDD50F2   1
+    DAD19F0   OBJ       -481.384
+    DAD19F0   RTD19     1
+    DAD19F0   TDD19F0   1
+    DAD19F1   OBJ       -401.153
+    DAD19F1   RTD19     1
+    DAD19F1   TDD19F1   1
+    DAD19F2   OBJ       -280.807
+    DAD19F2   RTD19     1
+    DAD19F2   TDD19F2   1
+    DAD18F0   OBJ       -449.158
+    DAD18F0   RTD18     1
+    DAD18F0   TDD18F0   1
+    DAD18F1   OBJ       -374.298
+    DAD18F1   RTD18     1
+    DAD18F1   TDD18F1   1
+    DAD18F2   OBJ       -262.009
+    DAD18F2   RTD18     1
+    DAD18F2   TDD18F2   1
+    DAD49F0   OBJ       -343.232
+    DAD49F0   RTD49     1
+    DAD49F0   TDD49F0   1
+    DAD49F1   OBJ       -286.027
+    DAD49F1   RTD49     1
+    DAD49F1   TDD49F1   1
+    DAD49F2   OBJ       -200.219
+    DAD49F2   RTD49     1
+    DAD49F2   TDD49F2   1
+    DAD17F0   OBJ       -318.055
+    DAD17F0   RTD17     1
+    DAD17F0   TDD17F0   1
+    DAD17F1   OBJ       -265.046
+    DAD17F1   RTD17     1
+    DAD17F1   TDD17F1   1
+    DAD17F2   OBJ       -185.532
+    DAD17F2   RTD17     1
+    DAD17F2   TDD17F2   1
+    DAD48F0   OBJ       -252.868
+    DAD48F0   RTD48     1
+    DAD48F0   TDD48F0   1
+    DAD48F1   OBJ       -210.723
+    DAD48F1   RTD48     1
+    DAD48F1   TDD48F1   1
+    DAD48F2   OBJ       -147.506
+    DAD48F2   RTD48     1
+    DAD48F2   TDD48F2   1
+    DAD16F0   OBJ       -480.698
+    DAD16F0   RTD16     1
+    DAD16F0   TDD16F0   1
+    DAD16F1   OBJ       -400.582
+    DAD16F1   RTD16     1
+    DAD16F1   TDD16F1   1
+    DAD16F2   OBJ       -280.407
+    DAD16F2   RTD16     1
+    DAD16F2   TDD16F2   1
+    DAD47F0   OBJ       -533.777
+    DAD47F0   RTD47     1
+    DAD47F0   TDD47F0   1
+    DAD47F1   OBJ       -444.814
+    DAD47F1   RTD47     1
+    DAD47F1   TDD47F1   1
+    DAD47F2   OBJ       -311.37
+    DAD47F2   RTD47     1
+    DAD47F2   TDD47F2   1
+    DAD15F0   OBJ       -430.57
+    DAD15F0   RTD15     1
+    DAD15F0   TDD15F0   1
+    DAD15F1   OBJ       -358.809
+    DAD15F1   RTD15     1
+    DAD15F1   TDD15F1   1
+    DAD15F2   OBJ       -251.166
+    DAD15F2   RTD15     1
+    DAD15F2   TDD15F2   1
+    DAD46F0   OBJ       -379.797
+    DAD46F0   RTD46     1
+    DAD46F0   TDD46F0   1
+    DAD46F1   OBJ       -316.497
+    DAD46F1   RTD46     1
+    DAD46F1   TDD46F1   1
+    DAD46F2   OBJ       -221.548
+    DAD46F2   RTD46     1
+    DAD46F2   TDD46F2   1
+    DAD14F0   OBJ       -511.791
+    DAD14F0   RTD14     1
+    DAD14F0   TDD14F0   1
+    DAD14F1   OBJ       -426.493
+    DAD14F1   RTD14     1
+    DAD14F1   TDD14F1   1
+    DAD14F2   OBJ       -298.545
+    DAD14F2   RTD14     1
+    DAD14F2   TDD14F2   1
+    DAD45F0   OBJ       -288.83
+    DAD45F0   RTD45     1
+    DAD45F0   TDD45F0   1
+    DAD45F1   OBJ       -240.692
+    DAD45F1   RTD45     1
+    DAD45F1   TDD45F1   1
+    DAD45F2   OBJ       -168.484
+    DAD45F2   RTD45     1
+    DAD45F2   TDD45F2   1
+    DAD13F0   OBJ       -393.854
+    DAD13F0   RTD13     1
+    DAD13F0   TDD13F0   1
+    DAD13F1   OBJ       -328.211
+    DAD13F1   RTD13     1
+    DAD13F1   TDD13F1   1
+    DAD13F2   OBJ       -229.748
+    DAD13F2   RTD13     1
+    DAD13F2   TDD13F2   1
+    DAD44F0   OBJ       -455.786
+    DAD44F0   RTD44     1
+    DAD44F0   TDD44F0   1
+    DAD44F1   OBJ       -379.822
+    DAD44F1   RTD44     1
+    DAD44F1   TDD44F1   1
+    DAD44F2   OBJ       -265.875
+    DAD44F2   RTD44     1
+    DAD44F2   TDD44F2   1
+    DAD12F0   OBJ       -179.87
+    DAD12F0   RTD12     1
+    DAD12F0   TDD12F0   1
+    DAD12F1   OBJ       -149.892
+    DAD12F1   RTD12     1
+    DAD12F1   TDD12F1   1
+    DAD12F2   OBJ       -104.924
+    DAD12F2   RTD12     1
+    DAD12F2   TDD12F2   1
+    DAD43F0   OBJ       -185.649
+    DAD43F0   RTD43     1
+    DAD43F0   TDD43F0   1
+    DAD43F1   OBJ       -154.708
+    DAD43F1   RTD43     1
+    DAD43F1   TDD43F1   1
+    DAD43F2   OBJ       -108.295
+    DAD43F2   RTD43     1
+    DAD43F2   TDD43F2   1
+    DAD11F0   OBJ       -409.386
+    DAD11F0   RTD11     1
+    DAD11F0   TDD11F0   1
+    DAD11F1   OBJ       -341.155
+    DAD11F1   RTD11     1
+    DAD11F1   TDD11F1   1
+    DAD11F2   OBJ       -238.809
+    DAD11F2   RTD11     1
+    DAD11F2   TDD11F2   1
+    DAD42F0   OBJ       -354.438
+    DAD42F0   RTD42     1
+    DAD42F0   TDD42F0   1
+    DAD42F1   OBJ       -295.365
+    DAD42F1   RTD42     1
+    DAD42F1   TDD42F1   1
+    DAD42F2   OBJ       -206.755
+    DAD42F2   RTD42     1
+    DAD42F2   TDD42F2   1
+    DAD10F0   OBJ       -187.173
+    DAD10F0   RTD10     1
+    DAD10F0   TDD10F0   1
+    DAD10F1   OBJ       -155.978
+    DAD10F1   RTD10     1
+    DAD10F1   TDD10F1   1
+    DAD10F2   OBJ       -109.184
+    DAD10F2   RTD10     1
+    DAD10F2   TDD10F2   1
+    DAD41F0   OBJ       -528.331
+    DAD41F0   RTD41     1
+    DAD41F0   TDD41F0   1
+    DAD41F1   OBJ       -440.276
+    DAD41F1   RTD41     1
+    DAD41F1   TDD41F1   1
+    DAD41F2   OBJ       -308.193
+    DAD41F2   RTD41     1
+    DAD41F2   TDD41F2   1
+    DAD40F0   OBJ       -309.706
+    DAD40F0   RTD40     1
+    DAD40F0   TDD40F0   1
+    DAD40F1   OBJ       -258.088
+    DAD40F1   RTD40     1
+    DAD40F1   TDD40F1   1
+    DAD40F2   OBJ       -180.662
+    DAD40F2   RTD40     1
+    DAD40F2   TDD40F2   1
+    DAD39F0   OBJ       -553.063
+    DAD39F0   RTD39     1
+    DAD39F0   TDD39F0   1
+    DAD39F1   OBJ       -460.886
+    DAD39F1   RTD39     1
+    DAD39F1   TDD39F1   1
+    DAD39F2   OBJ       -322.62
+    DAD39F2   RTD39     1
+    DAD39F2   TDD39F2   1
+    DAD38F0   OBJ       -354.304
+    DAD38F0   RTD38     1
+    DAD38F0   TDD38F0   1
+    DAD38F1   OBJ       -295.254
+    DAD38F1   RTD38     1
+    DAD38F1   TDD38F1   1
+    DAD38F2   OBJ       -206.677
+    DAD38F2   RTD38     1
+    DAD38F2   TDD38F2   1
+    DAD37F0   OBJ       -272.623
+    DAD37F0   RTD37     1
+    DAD37F0   TDD37F0   1
+    DAD37F1   OBJ       -227.185
+    DAD37F1   RTD37     1
+    DAD37F1   TDD37F1   1
+    DAD37F2   OBJ       -159.03
+    DAD37F2   RTD37     1
+    DAD37F2   TDD37F2   1
+    DAD36F0   OBJ       -497.244
+    DAD36F0   RTD36     1
+    DAD36F0   TDD36F0   1
+    DAD36F1   OBJ       -414.37
+    DAD36F1   RTD36     1
+    DAD36F1   TDD36F1   1
+    DAD36F2   OBJ       -290.059
+    DAD36F2   RTD36     1
+    DAD36F2   TDD36F2   1
+    DAD35F0   OBJ       -399.642
+    DAD35F0   RTD35     1
+    DAD35F0   TDD35F0   1
+    DAD35F1   OBJ       -333.035
+    DAD35F1   RTD35     1
+    DAD35F1   TDD35F1   1
+    DAD35F2   OBJ       -233.125
+    DAD35F2   RTD35     1
+    DAD35F2   TDD35F2   1
+    DAD34F0   OBJ       -268.493
+    DAD34F0   RTD34     1
+    DAD34F0   TDD34F0   1
+    DAD34F1   OBJ       -223.744
+    DAD34F1   RTD34     1
+    DAD34F1   TDD34F1   1
+    DAD34F2   OBJ       -156.621
+    DAD34F2   RTD34     1
+    DAD34F2   TDD34F2   1
+    DAD33F0   OBJ       -360.033
+    DAD33F0   RTD33     1
+    DAD33F0   TDD33F0   1
+    DAD33F1   OBJ       -300.027
+    DAD33F1   RTD33     1
+    DAD33F1   TDD33F1   1
+    DAD33F2   OBJ       -210.019
+    DAD33F2   RTD33     1
+    DAD33F2   TDD33F2   1
+    DAD32F0   OBJ       -235.195
+    DAD32F0   RTD32     1
+    DAD32F0   TDD32F0   1
+    DAD32F1   OBJ       -195.996
+    DAD32F1   RTD32     1
+    DAD32F1   TDD32F1   1
+    DAD32F2   OBJ       -137.197
+    DAD32F2   RTD32     1
+    DAD32F2   TDD32F2   1
+    DAD31F0   OBJ       -445.821
+    DAD31F0   RTD31     1
+    DAD31F0   TDD31F0   1
+    DAD31F1   OBJ       -371.518
+    DAD31F1   RTD31     1
+    DAD31F1   TDD31F1   1
+    DAD31F2   OBJ       -260.063
+    DAD31F2   RTD31     1
+    DAD31F2   TDD31F2   1
+    DAD30F0   OBJ       -403.203
+    DAD30F0   RTD30     1
+    DAD30F0   TDD30F0   1
+    DAD30F1   OBJ       -336.003
+    DAD30F1   RTD30     1
+    DAD30F1   TDD30F1   1
+    DAD30F2   OBJ       -235.202
+    DAD30F2   RTD30     1
+    DAD30F2   TDD30F2   1
+RHS
+    RHS       PP1       14
+    RHS       PP0       14
+    RHS       PP9       14
+    RHS       PP8       14
+    RHS       PP7       14
+    RHS       PP6       14
+    RHS       PP5       14
+    RHS       PP4       14
+    RHS       PP3       14
+    RHS       PP2       14
+    RHS       TDD9F0    0.669
+    RHS       TDD9F1    0.669
+    RHS       TDD9F2    0.669
+    RHS       TDD29F0   0.783
+    RHS       TDD29F1   0.783
+    RHS       TDD29F2   0.783
+    RHS       TDD8F0    1.451
+    RHS       TDD8F1    1.451
+    RHS       TDD8F2    1.451
+    RHS       TDD28F0   1.502
+    RHS       TDD28F1   1.502
+    RHS       TDD28F2   1.502
+    RHS       TDD7F0    0.924
+    RHS       TDD7F1    0.924
+    RHS       TDD7F2    0.924
+    RHS       TDD27F0   1.794
+    RHS       TDD27F1   1.794
+    RHS       TDD27F2   1.794
+    RHS       TDD6F0    0.829
+    RHS       TDD6F1    0.829
+    RHS       TDD6F2    0.829
+    RHS       TDD26F0   1.31
+    RHS       TDD26F1   1.31
+    RHS       TDD26F2   1.31
+    RHS       TDD25F0   1.818
+    RHS       TDD25F1   1.818
+    RHS       TDD25F2   1.818
+    RHS       TDD5F0    1.034
+    RHS       TDD5F1    1.034
+    RHS       TDD5F2    1.034
+    RHS       TDD24F0   1.027
+    RHS       TDD24F1   1.027
+    RHS       TDD24F2   1.027
+    RHS       TDD4F0    1.543
+    RHS       TDD4F1    1.543
+    RHS       TDD4F2    1.543
+    RHS       TDD23F0   1.402
+    RHS       TDD23F1   1.402
+    RHS       TDD23F2   1.402
+    RHS       TDD3F0    1.12
+    RHS       TDD3F1    1.12
+    RHS       TDD3F2    1.12
+    RHS       TDD22F0   1.013
+    RHS       TDD22F1   1.013
+    RHS       TDD22F2   1.013
+    RHS       TDD2F0    1.864
+    RHS       TDD2F1    1.864
+    RHS       TDD2F2    1.864
+    RHS       TDD21F0   1.234
+    RHS       TDD21F1   1.234
+    RHS       TDD21F2   1.234
+    RHS       TDD1F0    0.998
+    RHS       TDD1F1    0.998
+    RHS       TDD1F2    0.998
+    RHS       TDD20F0   1.903
+    RHS       TDD20F1   1.903
+    RHS       TDD20F2   1.903
+    RHS       TDD50F0   1.613
+    RHS       TDD50F1   1.613
+    RHS       TDD50F2   1.613
+    RHS       TDD19F0   1.821
+    RHS       TDD19F1   1.821
+    RHS       TDD19F2   1.821
+    RHS       TDD18F0   1.375
+    RHS       TDD18F1   1.375
+    RHS       TDD18F2   1.375
+    RHS       TDD49F0   1.529
+    RHS       TDD49F1   1.529
+    RHS       TDD49F2   1.529
+    RHS       TDD17F0   1.129
+    RHS       TDD17F1   1.129
+    RHS       TDD17F2   1.129
+    RHS       TDD48F0   0.904
+    RHS       TDD48F1   0.904
+    RHS       TDD48F2   0.904
+    RHS       TDD16F0   1.658
+    RHS       TDD16F1   1.658
+    RHS       TDD16F2   1.658
+    RHS       TDD47F0   1.686
+    RHS       TDD47F1   1.686
+    RHS       TDD47F2   1.686
+    RHS       TDD15F0   1.76
+    RHS       TDD15F1   1.76
+    RHS       TDD15F2   1.76
+    RHS       TDD46F0   1.551
+    RHS       TDD46F1   1.551
+    RHS       TDD46F2   1.551
+    RHS       TDD14F0   1.736
+    RHS       TDD14F1   1.736
+    RHS       TDD14F2   1.736
+    RHS       TDD45F0   1.135
+    RHS       TDD45F1   1.135
+    RHS       TDD45F2   1.135
+    RHS       TDD13F0   1.387
+    RHS       TDD13F1   1.387
+    RHS       TDD13F2   1.387
+    RHS       TDD44F0   1.808
+    RHS       TDD44F1   1.808
+    RHS       TDD44F2   1.808
+    RHS       TDD12F0   0.816
+    RHS       TDD12F1   0.816
+    RHS       TDD12F2   0.816
+    RHS       TDD43F0   0.696
+    RHS       TDD43F1   0.696
+    RHS       TDD43F2   0.696
+    RHS       TDD11F0   1.587
+    RHS       TDD11F1   1.587
+    RHS       TDD11F2   1.587
+    RHS       TDD42F0   1.321
+    RHS       TDD42F1   1.321
+    RHS       TDD42F2   1.321
+    RHS       TDD10F0   0.789
+    RHS       TDD10F1   0.789
+    RHS       TDD10F2   0.789
+    RHS       TDD41F0   1.813
+    RHS       TDD41F1   1.813
+    RHS       TDD41F2   1.813
+    RHS       TDD40F0   1.047
+    RHS       TDD40F1   1.047
+    RHS       TDD40F2   1.047
+    RHS       TDD39F0   1.851
+    RHS       TDD39F1   1.851
+    RHS       TDD39F2   1.851
+    RHS       TDD38F0   1.111
+    RHS       TDD38F1   1.111
+    RHS       TDD38F2   1.111
+    RHS       TDD37F0   0.967
+    RHS       TDD37F1   0.967
+    RHS       TDD37F2   0.967
+    RHS       TDD36F0   1.727
+    RHS       TDD36F1   1.727
+    RHS       TDD36F2   1.727
+    RHS       TDD35F0   1.739
+    RHS       TDD35F1   1.739
+    RHS       TDD35F2   1.739
+    RHS       TDD34F0   0.889
+    RHS       TDD34F1   0.889
+    RHS       TDD34F2   0.889
+    RHS       TDD33F0   1.433
+    RHS       TDD33F1   1.433
+    RHS       TDD33F2   1.433
+    RHS       TDD32F0   0.75
+    RHS       TDD32F1   0.75
+    RHS       TDD32F2   0.75
+    RHS       TDD31F0   1.556
+    RHS       TDD31F1   1.556
+    RHS       TDD31F2   1.556
+    RHS       TDD30F0   1.264
+    RHS       TDD30F1   1.264
+    RHS       TDD30F2   1.264
+BOUNDS
+ENDATA

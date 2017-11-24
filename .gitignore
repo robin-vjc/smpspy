@@ -1,0 +1,21 @@
+.idea
+.cache
+*.iml
+out
+gen
+*.h5
+*.pyc
+*.csv
+*.log
+notebooks/.ipynb_checkpoints
+*.mod
+*.o
+*.zip
+
+
+# Add exceptions for results
+!example_experiment_set_1.csv
+!example_experiment_set_2.csv
+!parameter_scan_record.csv
+!parameter_selection.csv
+!final_experiments_record.csv

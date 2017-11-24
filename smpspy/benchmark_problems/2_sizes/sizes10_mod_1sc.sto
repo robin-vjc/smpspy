@@ -1,0 +1,14 @@
+STOCH         SIZES
+SCENARIOS     DISCRETE
+ SC SCEN01    ROOT          1.000000   STAGE-2
+    RHS      D01JJ02           1.250
+    RHS      D02JJ02           3.750
+    RHS      D03JJ02           6.250
+    RHS      D04JJ02           5.000
+    RHS      D05JJ02          17.500
+    RHS      D06JJ02          12.500
+    RHS      D07JJ02           7.500
+    RHS      D08JJ02           6.250
+    RHS      D09JJ02           6.250
+    RHS      D10JJ02           2.500
+ENDATA

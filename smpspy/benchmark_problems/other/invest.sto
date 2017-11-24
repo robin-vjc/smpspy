@@ -1,0 +1,39 @@
+STOCH         Invest
+SCENARIOS	DISCRETE
+ SC SCEN_1    ROOT         0.125     YEAR_1
+    STOCK1    BAL1          -1.25
+    BONDS1    BAL1          -1.14
+    STOCK2    BAL2          -1.25
+    BONDS2    BAL2          -1.14
+    STOCK3    BAL3          -1.25
+    BONDS3    BAL3          -1.14
+ SC SCEN_2    SCEN_1         0.125     YEAR_15
+    STOCK3    BAL3          -1.06
+    BONDS3    BAL3          -1.12
+ SC SCEN_3    SCEN_1         0.125     YEAR_11
+    STOCK2    BAL2          -1.06
+    BONDS2    BAL2          -1.12
+    STOCK3    BAL3          -1.25
+    BONDS3    BAL3          -1.14
+ SC SCEN_4    SCEN_3         0.125     YEAR_15
+    STOCK3    BAL3          -1.06
+    BONDS3    BAL3          -1.12
+ SC SCEN_5    SCEN_1         0.125     YEAR_6
+    STOCK1    BAL1          -1.06
+    BONDS1    BAL1          -1.12
+    STOCK2    BAL2          -1.25
+    BONDS2    BAL2          -1.14
+    STOCK3    BAL3          -1.25
+    BONDS3    BAL3          -1.14
+ SC SCEN_6    SCEN_5         0.125     YEAR_15
+    STOCK3    BAL3          -1.06
+    BONDS3    BAL3          -1.12
+ SC SCEN_7    SCEN_5         0.125     YEAR_11
+    STOCK2    BAL2          -1.06
+    BONDS2    BAL2          -1.12
+    STOCK3    BAL3          -1.25
+    BONDS3    BAL3          -1.14
+ SC SCEN_8    SCEN_7         0.125     YEAR_15
+    STOCK3    BAL3          -1.06
+    BONDS3    BAL3          -1.12
+ENDATA

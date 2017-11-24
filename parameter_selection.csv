@@ -1,0 +1,51 @@
+subtype,method_name,selected_parameter
+sslp,bundle,0.01
+sslp,CP,0.1
+sslp,DSA,0.1
+sslp,SG 1/k,10.0
+sslp,SG const,0.1
+sslp,TA 1,0.01
+sslp,UDGM,1.0
+sslp,UFGM,1.0
+sslp,UPGM,1.0
+sslp,TA 2,0.01
+semi,bundle,1.0
+semi,CP,100.0
+semi,DSA,1.0
+semi,SG 1/k,1.0
+semi,SG const,1.0
+semi,TA 1,1.0
+semi,UDGM,100.0
+semi,UFGM,100.0
+semi,UPGM,10.0
+semi,TA 2,100.0
+sizes,bundle,100.0
+sizes,CP,100.0
+sizes,DSA,10.0
+sizes,SG 1/k,0.1
+sizes,SG const,0.01
+sizes,TA 1,100.0
+sizes,UDGM,100.0
+sizes,UFGM,100.0
+sizes,UPGM,100.0
+sizes,TA 2,10.0
+dcap,bundle,1.0
+dcap,CP,100.0
+dcap,DSA,1.0
+dcap,SG 1/k,1.0
+dcap,SG const,0.01
+dcap,TA 1,1.0
+dcap,UDGM,10.0
+dcap,UFGM,0.01
+dcap,UPGM,10.0
+dcap,TA 2,1.0
+smkp,bundle,10.0
+smkp,CP,100.0
+smkp,DSA,10.0
+smkp,SG 1/k,1.0
+smkp,SG const,0.1
+smkp,TA 1,1.0
+smkp,UDGM,100.0
+smkp,UFGM,100.0
+smkp,UPGM,0.01
+smkp,TA 2,1.0

@@ -1,0 +1,5 @@
+TIME          XXX
+PERIODS       LP
+    ST15      NC0T15                   PER01
+    E1T15T15  NC1T15                   PER02
+ENDATA

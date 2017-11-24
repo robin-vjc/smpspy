@@ -1,0 +1,12 @@
+POSTS:
+- available from http://users.iems.northwestern.edu/~jrbirge/html/dholmes/post.html
+- all continuous
+
+VACCINE:
+- [~200MB] available from http://www2.isye.gatech.edu/~sahmed/siplib/vaccine/vaccine.html
+- chance constrained 
+
+ALL OTHERS:
+- available from http://www2.isye.gatech.edu/~sahmed/siplib/
+
+

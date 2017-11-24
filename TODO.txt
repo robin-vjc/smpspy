@@ -1,0 +1,3 @@
+# Features to be added
+- use SMPSREAD.F90 instead of smps_read.py
+- hook the oracle that actually does distributed computations (code is there already.. mostly)

@@ -1,0 +1,21 @@
+* Three-stage investment problem from Birge and Louveaux (p.24)
+*23412345678  12345678  123456789012   12345678  123456789012
+NAME          Invest
+ROWS
+ N  WEALTH
+ E  BUDGET
+ E  BAL1
+ E  BAL2
+ E  BAL3
+COLUMNS
+    STOCK1    BUDGET          1.00     BAL1        -1.15
+    BONDS1    BUDGET          1.00     BAL1        -1.13
+    STOCK2    BAL1            1.00     BAL2        -1.15
+    BONDS2    BAL1            1.00     BAL2        -1.13
+    STOCK3    BAL2            1.00     BAL3        -1.15
+    BONDS3    BAL2            1.00     BAL3        -1.13
+    SHORT     BAL3           -1.00     WEALTH       1.00
+    OVER      BAL3            1.00     WEALTH      -1.00
+RHS
+    RHS       BUDGET         55.00     BAL3        80.00
+ENDATA
