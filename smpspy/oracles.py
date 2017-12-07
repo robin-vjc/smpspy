@@ -1,5 +1,9 @@
 from __future__ import print_function
 
+import copy
+
+from smpspy.smps_read import StochasticModel
+
 __author__ = 'vujanicr'
 """
 Collection of inner problems, coded to fit the required oracle interface to function properly with the dual methods.
@@ -17,8 +21,8 @@ OUTPUT
 
 import numpy as np
 import gurobipy as gb
-from smps_read import *
-from collections import defaultdict
+# from smps_read import *
+from collections import defaultdict, OrderedDict
 import multiprocessing as mp
 # import pathos.multiprocessing as mp
 import time
@@ -54,7 +58,7 @@ class InnerProblemInterface(object):
 
 
 class TwoStage_SMPS_InnerProblem(InnerProblemInterface):
-    def __init__(self, filename='./data/2_sizes/sizes10'):
+    def __init__(self, filename='./data/2_sizes/sizes10', R=None):
         # generate stochastic model
         self.stoch_model = StochasticModel(filename)
         if self.stoch_model.nominal_model.ModelSense != 1:
@@ -73,6 +77,8 @@ class TwoStage_SMPS_InnerProblem(InnerProblemInterface):
         self.instance_type = ''
         self.instance_subtype = ''
         self.instance_name = ''
+
+        self.R = R  # used in softmax computation
 
     def _construct_local_problem(self, scenario, lambda_k):
         # TODO I generate the entire local model every iteration, even though the only thing changing is the objective
@@ -203,6 +209,42 @@ class TwoStage_SMPS_InnerProblem(InnerProblemInterface):
         # flatten again to a single list
         lambda_k = [item for sublist in scenario_lambda_k for item in sublist]
         lambda_k = np.array(lambda_k)
+        return lambda_k
+
+    def softmax_projection(self, lambda_k):
+        assert self.R, 'inner problem must know the parameter R >= || lambda* - lambda_0 || to perform softmax projection'
+
+        lambda_k = copy.copy(lambda_k)
+        lambda_k = self.n_scenarios*self.R*lambda_k
+
+        # reorganize lambda_k into a list of lists, each entry related to a scenario
+        # INPUT: np.array([0.1, 0.2, 1.3, 0.2, 1.6, 0.5])
+        # OUTPUT: [array([  0.1,   0.2,  1.3]), array([  0.2,  1.6,  0.5])]
+        scenario_lambda_k = []
+        for scenario in range(self.n_scenarios):
+            scenario_lambda_k.append(lambda_k[scenario*self.n_x:(scenario+1)*self.n_x])
+
+        # determine max lambda_k vector
+        max_lambda_k = np.max(scenario_lambda_k, axis=0)
+
+        # then remove max from each entry
+        for scenario in range(self.n_scenarios):
+            scenario_lambda_k[scenario] = scenario_lambda_k[scenario] - max_lambda_k
+
+        # compute exponentiation and normalizing factor
+        normalizing_factor = np.zeros(len(scenario_lambda_k[0]))
+        for scenario in range(self.n_scenarios):
+            scenario_lambda_k[scenario] = np.exp(scenario_lambda_k[scenario])
+            normalizing_factor += scenario_lambda_k[scenario]
+
+        # then divide
+        for scenario in range(self.n_scenarios):
+            scenario_lambda_k[scenario] = scenario_lambda_k[scenario] / normalizing_factor
+
+        # flatten again to a single list
+        lambda_k = [item for sublist in scenario_lambda_k for item in sublist]
+        lambda_k = self.R * (self.n_scenarios * np.array(lambda_k) - 1)
+
         return lambda_k
 
 
