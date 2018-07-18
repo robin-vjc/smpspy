@@ -19,3 +19,6 @@ notebooks/.ipynb_checkpoints
 !parameter_scan_record.csv
 !parameter_selection.csv
 !final_experiments_record.csv
+smpspy/__pycache__/
+smpspy/benchmark_problems/__pycache__/
+tests/__pycache__/
