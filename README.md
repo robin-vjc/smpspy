@@ -4,7 +4,17 @@
   <img src="./notebooks/img/stoch_tree.png" alt="Scenarios Tree" width="60%" href="#"/>
 </p>
 
-### Brief Intro
+### Installation
+
+1. Install `nsopy`, see [instructions here](https://github.com/robin-vjc/nsopy).
+1. Fork/clone/download this repo, and cd into its directory.
+1. Run `pip install -r requirements.txt`
+1. The package `gurobipy` is also required, instructions [here](http://www.gurobi.com/documentation/6.5/quickstart_mac/the_gurobi_python_interfac.html).
+
+Now you can cd into the `notebooks` directory and run `jupyter notebook`; you should be able to 
+execute all the notebooks without seeing any error.
+
+### Introduction
 
 Implementation of a dual decomposition system, applied to parallelize the solution 
 of hard multistage (integer) stochastic programs.
@@ -19,18 +29,6 @@ please check [1].
 [notebook 2](./notebooks/Dual Methods Performance-2 Comparison.ipynb). These reproduce the contents of [2].
 
 
-### Installation
-
-1. Fork/clone/download the `nsopy` package from [here](https://github.com/robin-vjc/nsopy).
-1. Make it available to your python environment by adding the directory that contains the `nsopy` directory to the 
-`PYTHONPATH` system environment variable. Verify that it's available with `import nsopy`.
-1. Fork/clone/download this repo, and cd into its directory.
-1. Run `pip install -r requirements.txt`
-1. The package `gurobipy` is also required, instructions [here](http://www.gurobi.com/documentation/6.5/quickstart_mac/the_gurobi_python_interfac.html).
-
-Now you can cd into the `notebooks` directory and run `jupyter notebook`; you should be able to 
-execute all the notebooks without seeing any error.
-
 ### References
 
 [1] C. Caroe and R. Schultz, *Dual decomposition in stochastic integer programming*, Operations
@@ -41,3 +39,19 @@ Research Letters 24 (1999), no. 1, 37-45. [Publication link](http://citeseerx.is
 ### Contributing
 
 Pull requests are very welcome. Check the [TODO](TODO.txt). 
+
+
+## Cite
+
+~~~~
+@article{Vujanic2018,
+	title={Dual Decomposition of Stochastic Integer Programs: New Results and Experimental Comparison of Solution Methods},
+	author={Vujanic, Robin and Esfahani, Peyman Mohajerin},
+	journal={TO BE COMPLETED},
+	volume={TO BE COMPLETED},
+	number={TO BE COMPLETED},
+	pages={TO BE COMPLETED},
+	year={2018},
+	publisher={TO BE COMPLETED}
+}
+~~~~ 
