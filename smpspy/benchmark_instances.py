@@ -16,7 +16,7 @@ _dcap_names = [
     'dcap243_300',
     'dcap243_500',
 ]
-_dcap_instances = map(lambda name: _dcap_path + name, _dcap_names)
+_dcap_instances = list(map(lambda name: _dcap_path + name, _dcap_names))
 
 # OK ~160 sec per it (time limit in action, optimization of certain scenarios is heavy)
 _semi_path = _main_smps_path + '2_semi/'
@@ -25,14 +25,14 @@ _semi_names = [
     '2_semi3',  # 3 scenarios, 167 sec per it. 1st scenario: 1 sec, 2nd: 150sec, 3rd: 0.3 sec
     '2_semi4',  # 4 scenarios, 159 sec per it. 1st insta, 2nd time limit, 3rd insta, 4th time limit
 ]
-_semi_instances = map(lambda name: _semi_path + name, _semi_names)
+_semi_instances = list(map(lambda name: _semi_path + name, _semi_names))
 
 # OK, dual_step() time 0.3 sec
 _sizes_path = _main_smps_path + '2_sizes/'
 _sizes_names = [
     'sizes10'
 ]
-_sizes_instances = map(lambda name: _sizes_path + name, _sizes_names)
+_sizes_instances = list(map(lambda name: _sizes_path + name, _sizes_names))
 
 # OK, 18 sec per it
 _smkp_path = _main_smps_path + '2_smkp/'
@@ -68,7 +68,7 @@ _smkp_names = [
     'smkp_29',
     'smkp_30',
 ]
-_smkp_instances = map(lambda name: _smkp_path + name, _smkp_names)
+_smkp_instances = list(map(lambda name: _smkp_path + name, _smkp_names))
 
 # OK SSLP, 0.1 sec per it
 _sslp_path = _main_smps_path + '2_sslp/'
@@ -86,7 +86,7 @@ _sslp_names = [
     'sslp_15_45_10',
     'sslp_15_45_15',
 ]
-_sslp_instances = map(lambda name: _sslp_path + name, _sslp_names)
+_sslp_instances = list(map(lambda name: _sslp_path + name, _sslp_names))
 
 STOCH_INSTANCES = {'dcap': _dcap_instances,
                    'semi': _semi_instances,

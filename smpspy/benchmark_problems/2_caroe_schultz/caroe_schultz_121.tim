@@ -1,0 +1,5 @@
+TIME
+PERIODS       LP
+    x1        cstr0                  PERIOD1
+    y1        cstr1                  PERIOD2
+ENDATA

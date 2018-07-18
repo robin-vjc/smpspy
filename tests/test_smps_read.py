@@ -1,10 +1,12 @@
+import os
 from collections import OrderedDict
 import numpy as np
 
 from smpspy.oracles import TwoStage_SMPS_InnerProblem
 from smpspy.smps_read import StochasticModel
 
-BENCHMARK_PATH = '../smpspy/benchmark_problems/'
+THIS_PATH = os.path.dirname(os.path.realpath(__file__))
+BENCHMARK_PATH = THIS_PATH+'/../smpspy/benchmark_problems/'
 
 
 def test_stochastic_model_from_smps_read():
@@ -32,7 +34,7 @@ def test_stochastic_model_from_smps_read():
     #############
     assert len(sm.scenarios) == 10, 'sizes10 model should have 10 scenarios'
     assert type(sm.scenarios) == OrderedDict
-    assert sm.scenarios.keys()[0] == 'SCEN01', 'name of first scenario is SCEN01 (ordered dict!)'
+    assert list(sm.scenarios.keys())[0] == 'SCEN01', 'name of first scenario is SCEN01 (ordered dict!)'
     assert sm.scenarios['SCEN01'].probability == 0.1
 
     # Scenario matrices
@@ -88,6 +90,7 @@ def test_caroe_schultz_paper_model():
     det_eq.optimize()
 
     assert abs(det_eq.Objval+62.29) <= 0.1
+
 
 def test_multistage_smps_read():
     print('#Test: smps_read should work on models with more than 2 stages too.')

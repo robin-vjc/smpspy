@@ -1,5 +1,5 @@
-from smpspy.smps.benchmark_instances import STOCH_INSTANCES
-from smpspy.smps.oracles import TwoStage_SMPS_InnerProblem
+from smpspy.benchmark_instances import STOCH_INSTANCES
+from smpspy.oracles import TwoStage_SMPS_InnerProblem
 
 
 def BenchmarkInnerProblemsFactory(type, instance_n, subtype='all'):

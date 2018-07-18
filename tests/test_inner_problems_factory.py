@@ -1,5 +1,5 @@
-from smpspy.smps.inner_problems_factory import BenchmarkInnerProblemsFactory
-from smpspy.smps.smps_read import StochasticModel
+from smpspy.inner_problems_factory import BenchmarkInnerProblemsFactory
+from smpspy.smps_read import StochasticModel
 
 
 def test_instances_are_importable():

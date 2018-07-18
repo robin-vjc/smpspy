@@ -142,7 +142,7 @@ class StochasticModel(object):
                 # Extract and clean line words
                 line_word = re.split(' |\t', line)
                 line_word = [x.strip() for x in line_word]
-                line_word = filter(None, line_word)
+                line_word = list(filter(None, line_word))
 
                 if line_word:
                     if line_word[0] == 'ROWS':
@@ -170,7 +170,7 @@ class StochasticModel(object):
                 # Extract and clean line words
                 line_word = re.split(' |\t', line)
                 line_word = [x.strip() for x in line_word]
-                line_word = filter(None, line_word)
+                line_word = list(filter(None, line_word))
 
                 if line_word[0] in ['TIME','PERIODS','ENDATA']:
                     pass  # just padding lines
@@ -271,7 +271,7 @@ class StochasticModel(object):
                 # Extract and clean line words
                 line_word = re.split(' |\t', line)  # split by whitespace or tab
                 line_word = [x.strip() for x in line_word]  # remove "\n" etc.
-                line_word = filter(None, line_word)  # remove empty elements in the line_word list
+                line_word = list(filter(None, line_word))  # remove empty elements in the line_word list
 
                 # parse to see if it's a section header
                 if line_word[0] == '*':
@@ -515,7 +515,7 @@ class Scenario(object):
             # Check if it's a RHS modification
             if col_label == 'RHS':
                 # find stage i of the modification
-                i = (key for key,value in self.stochastic_model.stage_constrs.items() if row_label in value).next()
+                i = next(key for key,value in self.stochastic_model.stage_constrs.items() if row_label in value)
                 local_row = self.stochastic_model.stage_constrs[i].index(row_label)
                 if self.stochastic_model.mode_of_modification == 'REPLACE':
                     self._b[i][local_row] = value
@@ -526,7 +526,7 @@ class Scenario(object):
             # Then check if it's a modification in the objective vector
             elif row_label == self.stochastic_model.objective_name:
                 # find stage i of the modification
-                i = (key for key,value in self.stochastic_model.stage_vars.items() if col_label in value).next()
+                i = next(key for key,value in self.stochastic_model.stage_vars.items() if col_label in value)
                 local_col = self.stochastic_model.stage_vars[i].index(col_label)
                 if self.stochastic_model.mode_of_modification == 'REPLACE':
                     self._c[i][local_col] = value
@@ -539,8 +539,8 @@ class Scenario(object):
                 try:
                     # We have to figure out which (i,j) we have to query from A[i,j] to extract the appropriate
                     # sub matrix to modify
-                    i = (key for key,value in self.stochastic_model.stage_constrs.items() if row_label in value).next()
-                    j = (key for key,value in self.stochastic_model.stage_vars.items() if col_label in value).next()
+                    i = next(key for key,value in self.stochastic_model.stage_constrs.items() if row_label in value)
+                    j = next(key for key,value in self.stochastic_model.stage_vars.items() if col_label in value)
                 except StopIteration:
                     print('The .sto file is inconsistent with the .cor file: the given label for the row or column \n' \
                           'at which the scenario modification should take place is not in the list of labels \n' \

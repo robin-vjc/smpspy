@@ -65,10 +65,10 @@ class TwoStage_SMPS_InnerProblem(InnerProblemInterface):
             # TODO fix this.
             print('WARNING: local model is maximization. Should be transformed into minimization.')
         self.n_scenarios = self.stoch_model.scenarios.__len__()
-        self.n_x = self.stoch_model.scenarios[self.stoch_model.scenarios.keys()[0]].c[1].__len__()
-        self.n_y = self.stoch_model.scenarios[self.stoch_model.scenarios.keys()[0]].c[2].__len__()
+        self.n_x = self.stoch_model.scenarios[list(self.stoch_model.scenarios.keys())[0]].c[1].__len__()
+        self.n_y = self.stoch_model.scenarios[list(self.stoch_model.scenarios.keys())[0]].c[2].__len__()
         self.dimension = self.n_x * self.n_scenarios
-        self.n_stages = self.stoch_model.scenarios[self.stoch_model.scenarios.keys()[0]].c.__len__()
+        self.n_stages = self.stoch_model.scenarios[list(self.stoch_model.scenarios.keys())[0]].c.__len__()
         if self.n_stages > 2:
             print('This implementation only supports up to two-stage problems.')
         self.SCENARIO_TIME_LIMIT = np.ceil(600/self.n_scenarios)  # 5 minutes max in total
@@ -273,7 +273,7 @@ def _external_optimization_of_single_scenario(scenario_n, scenario_lambda_k, poi
 
     # Add cutting planes
     for point in points_to_eliminate:
-        balas_cut = map(lambda z: 2*z-1, point)  # hyperplane equation: [0,1,0] -> [-1,1,-1]
+        balas_cut = list(map(lambda z: 2*z-1, point))  # hyperplane equation: [0,1,0] -> [-1,1,-1]
         scenario_program.addConstr(gb.quicksum([balas_cut[i]*x[i] for i in range(point.__len__())]) <= sum(point)-1,
                                    name='Balas cut of {0}'.format(str(point)))
     # Solve
@@ -323,7 +323,7 @@ def _external_optimization_of_single_scenario_distributed(scenario_n, scenario_l
 
     # Add cutting planes
     for point in points_to_eliminate:
-        balas_cut = map(lambda z: 2*z-1, point)  # hyperplane equation: [0,1,0] -> [-1,1,-1]
+        balas_cut = list(map(lambda z: 2*z-1, point))  # hyperplane equation: [0,1,0] -> [-1,1,-1]
         scenario_program.addConstr(gb.quicksum([balas_cut[i]*x[i] for i in range(point.__len__())]) <= sum(point)-1,
                                    name='Balas cut of {0}'.format(str(point)))
     # Solve

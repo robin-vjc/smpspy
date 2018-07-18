@@ -6,10 +6,16 @@
 
 ### Installation
 
-1. Install `nsopy`, see [instructions here](https://github.com/robin-vjc/nsopy).
-1. Fork/clone/download this repo, and cd into its directory.
-1. Run `pip install -r requirements.txt`
-1. The package `gurobipy` is also required, instructions [here](http://www.gurobi.com/documentation/6.5/quickstart_mac/the_gurobi_python_interfac.html).
+* Install `nsopy`, see [instructions here](https://github.com/robin-vjc/nsopy).
+* then:
+~~~~
+>> git clone https://github.com/robin-vjc/nsopy_stoch
+>> cd nsopy_stoch
+>> pip install -e .
+>> py.test
+~~~~
+(last step optional)
+* the package `gurobipy` is also required, instructions [here](http://www.gurobi.com/documentation/6.5/quickstart_mac/the_gurobi_python_interfac.html).
 
 Now you can cd into the `notebooks` directory and run `jupyter notebook`; you should be able to 
 execute all the notebooks without seeing any error.
