@@ -6,15 +6,14 @@
 
 ### Installation
 
-* Install `nsopy`, see [instructions here](https://github.com/robin-vjc/nsopy).
-* then:
+* install `nsopy`, see [instructions here](https://github.com/robin-vjc/nsopy).
+* then (last step optional):
 ~~~~
->> git clone https://github.com/robin-vjc/nsopy_stoch
->> cd nsopy_stoch
+>> git clone https://github.com/robin-vjc/smpspy
+>> cd smpspy
 >> pip install -e .
 >> py.test
 ~~~~
-(last step optional)
 * the package `gurobipy` is also required, instructions [here](http://www.gurobi.com/documentation/6.5/quickstart_mac/the_gurobi_python_interfac.html).
 
 Now you can cd into the `notebooks` directory and run `jupyter notebook`; you should be able to 
