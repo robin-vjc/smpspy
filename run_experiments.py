@@ -5,9 +5,9 @@ import time
 
 import numpy as np
 import pandas as pd
-from nsopy.methods.method_loggers import SlimDualMethodLogger
-from nsopy.methods.methods_factory import DualMethodsFactory
-from nsopy.methods.utils import record_logger
+from nsopy.loggers import SlimDualMethodLogger
+from nsopy.methods_factory import DualMethodsFactory
+from nsopy.utils import record_logger
 from smpspy.inner_problems_factory import BenchmarkInnerProblemsFactory, STOCH_INSTANCES
 
 if __name__ == '__main__':
@@ -64,10 +64,10 @@ Runs the desired battery of experiments. File `input.csv` can be specified in tw
     # Version where you pass methods parameters, and all instances are run
     ####################################################
     elif len(experiments_to_run.columns) == 3:
-        for subtype in STOCH_INSTANCES:
-            for instance_n, instance_filepath in enumerate(STOCH_INSTANCES[subtype]):
-                ip = BenchmarkInnerProblemsFactory(type='2 stage stoch', subtype=subtype, instance_n=instance_n)
-                for index, row in experiments_to_run[experiments_to_run.subtype==subtype].iterrows():
+        for index, row in experiments_to_run.iterrows():
+            for instance_n, instance_filepath in enumerate(STOCH_INSTANCES[row.subtype]):
+                ip = BenchmarkInnerProblemsFactory(type='2 stage stoch', subtype=row.subtype, instance_n=instance_n)
+                for index, row in experiments_to_run[experiments_to_run.subtype==row.subtype].iterrows():
                     methods.append(DualMethodsFactory(ip, method=row.method_name, param=row.selected_parameter))
                     loggers.append(SlimDualMethodLogger(methods[-1]))
 
@@ -85,7 +85,7 @@ Runs the desired battery of experiments. File `input.csv` can be specified in tw
             oracle_time = time.time() - start_time
 
             # Set value
-            N_ORACLE_CALLS = max(min(1000,  30*60/oracle_time), 100)
+            N_ORACLE_CALLS = max(min(1000, 30*60/oracle_time), 100)
             print('oracle_time  = {}, N_ORACLE_CALLS = {}'.format(oracle_time, N_ORACLE_CALLS))
 
             i = 0
