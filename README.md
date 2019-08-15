@@ -49,7 +49,7 @@ sslp,SG const,10,3
 ~~~~
 Then issuing the command
 ~~~~
->> python run_experiments.py -i text_experiments.csv -o text_experiments_output.csv
+>> python run_experiments.py -i example_experiment_set_1.csv -o example_experiment_set_1_output.csv
 ~~~~
 will run the following experiments
  * the `instance=0` of class `sslp` with subgradient method 1/k, and initial stepsize `0.1`
