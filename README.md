@@ -32,9 +32,9 @@ please check [1].
 * The contents of this repo can be used to reproduce the results in [2]. 
 
 ### Contents
-* utilities to parse files in the SMPS format; see [basic use examples](./notebooks/Dual Methods Performance-0 Basic Usage.ipynb).
-* solving duals of multistage programs, see [notebook 1](./notebooks/Dual Methods Performance-1 Parameter Selection.ipynb) and 
-[notebook 2](./notebooks/Dual Methods Performance-2 Comparison.ipynb). These reproduce the contents of [2].
+* utilities to parse files in the SMPS format; see [basic use examples]("./notebooks/Dual Methods Performance-0 Basic Usage.ipynb").
+* solving duals of multistage programs, see [notebook 1]("./notebooks/Dual Methods Performance-1 Parameter Selection.ipynb") and 
+[notebook 2]("./notebooks/Dual Methods Performance-2 Comparison.ipynb"). These reproduce the contents of [2].
 
 ### Replicating results from the command line
 
