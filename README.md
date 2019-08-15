@@ -6,8 +6,7 @@
 
 ### Installation
 
-* install `nsopy`, see [instructions here](https://github.com/robin-vjc/nsopy).
-* then (last step optional):
+* Run (last step optional):
 ~~~~
 >> git clone https://github.com/robin-vjc/smpspy
 >> cd smpspy
@@ -16,8 +15,12 @@
 ~~~~
 * the package `gurobipy` is also required, instructions [here](http://www.gurobi.com/documentation/6.5/quickstart_mac/the_gurobi_python_interfac.html).
 
-Now you can cd into the `notebooks` directory and run `jupyter notebook`; you should be able to 
-execute all the notebooks without seeing any error.
+Now you can 
+~~~~
+>> cd notebooks
+>> jupyter notebook
+~~~~
+to run several illustrative notebooks.
 
 ### Introduction
 
@@ -53,8 +56,8 @@ will run the following experiments
  * instance `instance=3` of class `sslp` with constant subgradient method, stepsize `10`
  
 The outputs of the experiments will be saved in the file `text_experiments_output.csv`. Settings available:
-* Available problem classes: `[dcap, semi, sizes, smkp, sslp]`
-* Available methods: `[SG 1/k, SG const, UPGM, UDGM, UFGM, DSA, TA 1, TA 2, CP, bundle]` 
+* problem classes: `[dcap, semi, sizes, smkp, sslp]`
+* methods: `[SG 1/k, SG const, UPGM, UDGM, UFGM, DSA, TA 1, TA 2, CP, bundle]` 
 
 **Note:** running
 ~~~~
